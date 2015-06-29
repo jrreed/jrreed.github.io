@@ -1,4 +1,4 @@
 My Portfolio Website
 =========================
 
-This site was built using a the [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme).
+This site was built using the [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme).
