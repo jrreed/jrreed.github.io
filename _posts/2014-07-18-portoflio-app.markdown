@@ -7,5 +7,7 @@ alt: Android Portfolio App
 project-date: June 2015
 client: Udacity Android Nanodegree
 category: Android Development
-description: The first project in Udacity's Android Nanodegree program. This app serves as a portfolio and launcher for all future applications developed in the program.  
+description: The first project in Udacity's Android Nanodegree program. This app serves as a portfolio and launcher for all future applications developed in the program.
+link: https://github.com/jrreed/app_portfolio
+link_title: Github Repository
 ---
