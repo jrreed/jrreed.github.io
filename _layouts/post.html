@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body id="page-top" class="index">
+    {% include nav.html %}
+    {% include header.html %}
+    <section id="post">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 text-center">
+            <div class="modal-body">{% include post.html post=page %}</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    {% include footer.html %}
+    {% include js.html %}
+  </body>
+</html>

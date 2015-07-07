@@ -12,26 +12,7 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>{{ include.post.title }}</h2>
-                            <hr class="star-primary">
-                            <img src="/img/portfolio/{{ include.post.img }}" class="img-responsive img-centered" alt="{{ include.post.alt }}">
-                            <p>{{ include.post.description }}</p>
-                            <ul class="list-inline item-details">
-                              <li>Client:
-                                <strong>{{ include.post.client }}</strong>
-                              </li>
-                              <li>Date:
-                                <strong>{{ include.post.project-date }}</strong>
-                              </li>
-                              <li>Category:
-                                <strong>{{ include.post.category }}</strong>
-                              </li>
-                              {% if include.post.link %}
-                              <li>See More:
-                                <a href="{{ include.post.link }}" target="_blank">{% if include.post.link_title %}{{ include.post.link_title }}{% else %}{{ include.post.link }}{% endif %}</a>
-                              </li>
-                              {% endif %}
-                            </ul>
+                            {% include post.html post=post %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
