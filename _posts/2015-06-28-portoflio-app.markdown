@@ -1,6 +1,6 @@
 ---
 layout: post
-modal-id: 1
+modal-id: portfolio-app
 date: 2015-06-28
 img: portfolio_app.png
 alt: Android Portfolio App

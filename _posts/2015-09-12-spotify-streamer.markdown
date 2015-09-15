@@ -1,7 +1,7 @@
 ---
 title: Spotify Streamer
 layout: post
-modal-id: 1
+modal-id: spotify-streamer
 date: 2015-09-12
 img: spotify_streamer.png
 alt: Spotify Streamer
