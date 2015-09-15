@@ -1,6 +1,11 @@
 <h2>{{ include.post.title }}</h2>
 <hr class="star-primary">
-<img src="/img/portfolio/{{ include.post.img }}" class="img-responsive img-centered" alt="{{ include.post.alt }}">
+<p>
+  <img src="/img/portfolio/{{ include.post.img }}" class="img-responsive img-centered" alt="{{ include.post.alt }}">
+</p>
+<p>
+  <a href="{{ include.post.url }}"><i class="permalink fa fa-link"></i></a>
+</p>
 <p>{{ include.post.description }}</p>
 <ul class="list-inline item-details">
   <li>Client:
